@@ -10,7 +10,8 @@ Csession provides a client session for http client. It has the same functions as
 
 ## Quick Start
 
-1. Before use please New or NewSession
+1.Before use please New or NewSession
+ 
 ```Go
 import (
 	"github.com/lunny/csession"
