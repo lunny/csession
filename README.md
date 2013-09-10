@@ -1,7 +1,7 @@
 # csession
 
 
-csession provides a client session for http client. It has the same functions as http.Client, but it will automatically save cookies, headers and set referer. 
+Csession provides a client session for http client. It has the same functions as http.Client, but it will automatically save cookies, headers and set referer. This project has part codes from github.com/chzyer/go-fetcher.
 
 
 ## Installing csession
