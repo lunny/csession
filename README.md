@@ -1,7 +1,7 @@
 # csession
 
 
-Csession provides a client session for http client. It has the same functions as http.Client, but it will automatically save cookies, headers and set referer. This project has part codes from github.com/chzyer/go-fetcher.
+Csession provides a client session for http client. It has the same methods as http.Client, but it will automatically save cookies, headers and set referer. This project has part codes from github.com/chzyer/go-fetcher.
 
 
 ## Installing csession
@@ -27,7 +27,7 @@ import (
 )
 session := csession.NewSession(transport, checkRedirect, jar)
 ```
-NewSession's params are the same as Client's fields
+NewSession's params are the same as http.Client's fields
 
 2.If you want to customize your headers, your can set HeadersFunc as your func. Default, session.HeadersFunc = session.DefaultHeadersFunc.
 
